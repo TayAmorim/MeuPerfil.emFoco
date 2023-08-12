@@ -4,3 +4,58 @@ html {
 #root {
   min-height: 100vh;
 }
+
+.icons {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.container {
+  max-width: 1204px;
+  margin: 0 auto;
+}
+
+.heroContainer {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 3rem;
+}
+
+.subtitle {
+  color: var(--highlightPrimary);
+  font-family: var(--heading2);
+  font-weight: normal;
+  font-size: 4rem;
+}
+
+.title {
+  font-family: var(--heading);
+  font-weight: normal;
+  font-size: 9.6rem;
+}
+
+.bodyText {
+  font-family: var(--bodyText);
+}
+
+.textResume {
+  font-size: 2rem;
+  max-width: 800px;
+  line-height: 32px;
+}
+
+.iconsContact {
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  transform: scale(0.9);
+  transition: scale 0.2s;
+}
+
+.icons:hover {
+  transform: scale(1);
+}

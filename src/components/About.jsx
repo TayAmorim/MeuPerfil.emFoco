@@ -5,17 +5,13 @@ import Coffee from "../assets/Coffee.svg";
 import Home from "../assets/home.svg";
 import Book from "../assets/book.svg";
 import Bike from "../assets/bike.svg";
+import TitleContainer from "./TitleContainer";
 
 function About() {
   return (
     <section className="container">
       <div className={styles.aboutInfo}>
-        <div className="titleGroup">
-          <h2 className={`subtitle ${styles.title} titleSection`}>
-            <span className="numberSection">01</span>
-            SOBRE MIM
-          </h2>
-        </div>
+        <TitleContainer />
         <p className="bodyText">
           Sou uma “mãe” de pet, e minha jornada ganhou novas cores quando me
           redescobri na área da tecnologia durante o turbilhão que foi trabalhar

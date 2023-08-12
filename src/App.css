@@ -90,7 +90,7 @@ html {
 
 .subtitleContainer {
   font-family: var(--heading);
-  color: var(--textPrimary);
+  color: var();
   font-weight: normal;
   font-size: 3.2rem;
 }

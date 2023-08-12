@@ -6,10 +6,6 @@
   margin-bottom: 60px;
 }
 
-.title {
-  margin-bottom: 30px;
-}
-
 .cardsInfo {
   display: flex;
   justify-content: space-between;

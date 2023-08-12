@@ -21,7 +21,7 @@
 
 .card {
   width: 140px;
-  padding-block: 12px;
+  padding-block: 14px;
   background: var(--bgCard);
   font-family: var(--heading2);
   text-align: center;

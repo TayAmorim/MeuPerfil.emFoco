@@ -96,13 +96,13 @@ html {
 }
 
 .cardActive {
-  background: var(--bgActive);
+  background: var(--bgActive) !important;
   color: var(--white);
   font-weight: bold;
 }
 
 .buttonActive {
-  background: var(--bgActive);
+  background: var(--bgActive) !important;
   font-weight: bold;
   color: var(--white);
 }

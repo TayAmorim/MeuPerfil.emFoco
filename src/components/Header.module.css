@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.headerNav {
+  background: var(--bgSecondary);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  min-width: 830px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: var(--highlightPrimary);
+}
+
+.navContainer {
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.navList {
+  display: flex;
+  padding-block: 39px;
+  gap: 11px;
+  font-size: 1.8rem;
+  font-family: var(--heading2);
+  color: var(--textSecondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navList:hover {
+  box-shadow: 0px 1px 0px var(--highlightPrimary);
+}
+
+.listNumber {
+  font-weight: bold;
+}

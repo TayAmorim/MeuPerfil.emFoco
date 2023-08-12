@@ -8,7 +8,7 @@
   --textPrimary: #0b0d17;
   --textSecondary: #383b4b;
   --bgCard: rgba(185, 22, 70, 0.1);
-  --bgButton: rgba(255, 255, 255, 0.4);
+  --bgSecondary: rgba(255, 255, 255, 0.4);
   --bgActive: rgba(185, 22, 70, 0.5);
 }
 
@@ -16,4 +16,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bgBody);
 }

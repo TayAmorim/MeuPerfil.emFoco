@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import GithubIcon from "./assets/github.png";
 import LinkedinIcon from "./assets/linkedin.png";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         </div>
       </section>
       <About />
+      <Skills />
     </>
   );
 }

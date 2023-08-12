@@ -10,6 +10,7 @@
   --bgCard: rgba(185, 22, 70, 0.1);
   --bgSecondary: rgba(255, 255, 255, 0.4);
   --bgActive: rgba(185, 22, 70, 0.5);
+  --white: #ffffff;
 }
 
 * {

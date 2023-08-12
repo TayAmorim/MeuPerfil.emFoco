@@ -11,7 +11,7 @@ function About() {
   return (
     <section className={`container ${styles.about}`}>
       <div className={styles.aboutInfo}>
-        <TitleContainer section="SOBRE MIM" />
+        <TitleContainer number="01" section="SOBRE MIM" />
         <p className="bodyText">
           Sou uma “mãe” de pet, e minha jornada ganhou novas cores quando me
           redescobri na área da tecnologia durante o turbilhão que foi trabalhar

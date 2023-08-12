@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import GithubIcon from "./assets/github.png";
 import LinkedinIcon from "./assets/linkedin.png";
+import About from "./components/About";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <section className="container">
         <div className="heroContainer">
-          <h2 className="subtitle">Oi, eu sou Tayanna</h2>
+          <h2 className="subtitle heroSubtitle">Oi, eu sou Tayanna</h2>
           <h1 className="title">Desenvolvedora React</h1>
           <p className="bodyText textResume">
             Explore meu mundo através das palavras e descubra o que me motiva e
@@ -39,6 +40,7 @@ function App() {
           </div>
         </div>
       </section>
+      <About />
     </>
   );
 }

@@ -23,11 +23,14 @@ html {
   gap: 3rem;
 }
 
-.subtitle {
+.heroSubtitle {
+  font-size: 4rem;
   color: var(--highlightPrimary);
+}
+
+.subtitle {
   font-family: var(--heading2);
   font-weight: normal;
-  font-size: 4rem;
 }
 
 .title {
@@ -38,6 +41,7 @@ html {
 
 .bodyText {
   font-family: var(--bodyText);
+  font-size: 2rem;
 }
 
 .textResume {
@@ -58,4 +62,35 @@ html {
 
 .icons:hover {
   transform: scale(1);
+}
+
+.titleSection {
+  font-family: var(--heading2);
+  font-size: 3.2rem;
+  letter-spacing: 4.725px;
+  display: flex;
+  gap: 25px;
+}
+
+.titleGroup::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: auto;
+  min-width: 570px;
+  height: 1px;
+  background: var(--highlightPrimary);
+}
+
+.numberSection {
+  color: #000;
+  opacity: 0.25;
+  font-weight: bold;
+}
+
+.subtitleContainer {
+  font-family: var(--heading);
+  color: var(--textPrimary);
+  font-weight: normal;
+  font-size: 3.2rem;
 }

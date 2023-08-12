@@ -1,0 +1,49 @@
+.aboutInfo {
+  margin-top: 13%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.cardsInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTitle {
+  margin-bottom: 20px;
+}
+
+.cardCuriosities,
+.cardHobbies {
+  gap: 30px;
+  background: var(--bgCard);
+  border-radius: 8px;
+  padding: 30px 20px;
+  box-shadow: 8px 7px 44px -19px rgba(185, 22, 4, 0.26);
+}
+
+.cardCuriosities {
+  min-width: 525px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHobbies {
+  min-width: 639px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cardCuriosities p,
+.cardHobbies p {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}

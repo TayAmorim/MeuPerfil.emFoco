@@ -9,9 +9,9 @@ import TitleContainer from "./TitleContainer";
 
 function About() {
   return (
-    <section className="container">
+    <section className={`container ${styles.about}`}>
       <div className={styles.aboutInfo}>
-        <TitleContainer />
+        <TitleContainer section="SOBRE MIM" />
         <p className="bodyText">
           Sou uma “mãe” de pet, e minha jornada ganhou novas cores quando me
           redescobri na área da tecnologia durante o turbilhão que foi trabalhar

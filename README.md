@@ -6,7 +6,20 @@
 
 Bem-vindo(a) à minha página de apresentação criada para o desafio técnico! Aqui, você terá a oportunidade de conhecer um pouco mais sobre mim, minhas paixões, motivações e o que me levou a embarcar nesta jornada de voluntariado utilizando React e CSS para expressar minha singularidade.
 
-![The San Juan Mountains are beautiful!](/src/assets/template_site.png "San Juan Mountains")
+### Desktop
+
+<p>
+<img src="src/assets/template_site.png" width="900" >
+<img src="src/assets/desktop_active.png" width="900" >
+</p>
+
+### Mobile
+
+<p>
+<img src="src/assets/mobile.png" width="300" >
+<img src="src/assets/mobile_menu.png" width="300" >
+<img src="src/assets/mobile_active.png" width="300" >
+</p>
 
 ## Sobre mim
 

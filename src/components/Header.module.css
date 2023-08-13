@@ -45,7 +45,7 @@
 .mobileButton {
   background: var(--bgCard);
   border-radius: 0.2rem;
-  margin-top: 30px;
+  margin-top: 0px;
   height: 60px;
   width: 60px;
   padding: 0px;
@@ -86,7 +86,7 @@
 .navMobile {
   display: block;
   position: absolute;
-  top: 70px;
+  top: 60px;
   left: 0px;
   padding: 0 5rem;
   background: white;

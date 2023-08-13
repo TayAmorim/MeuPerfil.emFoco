@@ -57,10 +57,14 @@ function App() {
           mudanças positivas em nossa sociedade. O projeto Menina de UX, com sua
           missão de promover a inclusão e visibilidade das mulheres na área
           tecnológica, ressoa fortemente com os meus próprios valores e
-          objetivos. É uma oportunidade única para mim, pois não apenas me
-          permite contribuir para um propósito que acredito, mas também oferece
-          um contexto onde posso aplicar minhas habilidades técnicas de maneira
-          concreta, enquanto continuo aprimorando meu conhecimento.
+          objetivos.
+          <p>
+            {" "}
+            É uma oportunidade única para mim, pois não apenas me permite
+            contribuir para um propósito que acredito, mas também oferece um
+            contexto onde posso aplicar minhas habilidades técnicas de maneira
+            concreta, enquanto continuo aprimorando meu conhecimento.
+          </p>
         </p>
       </section>
       <button onClick={handleClickScrollTop} className="buttonUp">

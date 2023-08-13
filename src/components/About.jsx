@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from "./About.module.css";
 import Barbell from "../assets/ion_barbell.svg";
 import Dice from "../assets/dice.svg";
@@ -9,7 +10,7 @@ import TitleContainer from "./TitleContainer";
 
 function About() {
   return (
-    <section className={`container ${styles.about}`}>
+    <section id="about" className={`container ${styles.about}`}>
       <div className={styles.aboutInfo}>
         <TitleContainer number="01" section="SOBRE MIM" />
         <p className="bodyText">

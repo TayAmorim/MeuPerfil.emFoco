@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 #root {
   min-height: 100vh;
@@ -42,6 +43,7 @@ html {
 .bodyText {
   font-family: var(--bodyText);
   font-size: 2rem;
+  line-height: 32px;
 }
 
 .textResume {
@@ -105,4 +107,17 @@ html {
   background: var(--bgActive) !important;
   font-weight: bold;
   color: var(--white);
+}
+
+.textMotivation {
+  margin-block: 60px;
+}
+
+.buttonUp {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 1%;
+  cursor: pointer;
+  transition: scroll 0.9s;
 }

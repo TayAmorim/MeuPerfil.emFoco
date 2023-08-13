@@ -1,4 +1,4 @@
-button {
+.button {
   min-width: 238px;
   padding-block: 12px;
   border-radius: 8px;
@@ -6,9 +6,6 @@ button {
   cursor: pointer;
   font-size: 2.2rem;
   transition: all 0.2s;
-}
-
-.button {
   background: var(--bgSecondary);
   font-family: var(--heading);
 }

@@ -4,12 +4,17 @@ import GithubIcon from "./assets/github.png";
 import LinkedinIcon from "./assets/linkedin.png";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import TitleContainer from "./components/TitleContainer";
+import ArrowUpIcon from "./assets/arrow-up.svg";
 
 function App() {
+  function handleClickScrollTop() {
+    window.scrollTo(0, 0);
+  }
   return (
     <>
       <Header />
-      <section className="container">
+      <section id="home" className="container">
         <div className="heroContainer">
           <h2 className="subtitle heroSubtitle">Oi, eu sou Tayanna</h2>
           <h1 className="title">Desenvolvedora React</h1>
@@ -43,6 +48,24 @@ function App() {
       </section>
       <About />
       <Skills />
+      <section id="motivation" className="container">
+        <TitleContainer section="MOTIVAÇÃO" number="03" />
+        <p className="bodyText textMotivation">
+          O propósito do projeto Menina de UX, que busca promover a inclusão de
+          mais mulheres na área de tecnologia e evidenciar suas capacidades
+          excepcionais em todos os campos, está perfeitamente em sintonia com o
+          meu próprio propósito. Além disso, tenho convicção de que contribuir
+          para esse projeto me proporcionará uma valiosa oportunidade para
+          aplicar minhas habilidades técnicas no contexto profissional.
+        </p>
+      </section>
+      <button onClick={handleClickScrollTop} className="buttonUp">
+        <img
+          className="btnTopPage"
+          src={ArrowUpIcon}
+          alt="Botão para voltar ao top da página"
+        />
+      </button>
     </>
   );
 }

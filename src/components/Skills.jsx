@@ -76,7 +76,7 @@ function Skills() {
   }
 
   return (
-    <section className={`container ${styles.skills}`}>
+    <section id="abilities" className={`container ${styles.skills}`}>
       <TitleContainer number="02" section="HABILIDADES & CARREIRA" />
       <h2 className={`subtitleContainer ${styles.subtitle}`}>Instituições</h2>
       <div className={styles.containerGroup}>

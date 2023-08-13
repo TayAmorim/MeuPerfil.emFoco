@@ -1,11 +1,28 @@
+import { useState } from "react";
 import styles from "./Header.module.css";
+import useMedia from "../Hooks/useMedia";
 
 function Header() {
+  const mobile = useMedia("(max-width: 40rem)");
+  const [mobileMenu, setMobileMenu] = useState(false);
+
   return (
     <header className={styles.header}>
-      <div className={styles.line}></div>
+      {mobile && (
+        <button
+          aria-label="Menu"
+          className={`${styles.mobileButton} ${
+            mobileMenu && styles.mobileButtonActive
+          }`}
+          onClick={() => setMobileMenu(!mobileMenu)}
+        ></button>
+      )}
       <nav className={styles.headerNav}>
-        <ul className={styles.navContainer}>
+        <ul
+          className={`${mobile ? styles.navMobile : styles.navContainer} ${
+            mobileMenu && styles.navMobileActive
+          }`}
+        >
           <li>
             <a className={styles.navList} href="#home">
               <span className={styles.listNumber}>00</span>

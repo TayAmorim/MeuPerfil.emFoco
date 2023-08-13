@@ -1,14 +1,13 @@
 .header {
   display: flex;
   justify-content: end;
-  margin-top: 40px;
   margin-bottom: 140px;
   align-items: center;
 }
 
 .headerNav {
   flex: 1;
-  position: fixed;
+  top: 0;
   z-index: 99;
   background: var(--bgSecondary);
   border-top-left-radius: 8px;
@@ -41,4 +40,75 @@
 
 .listNumber {
   font-weight: bold;
+}
+
+.mobileButton {
+  background: var(--bgCard);
+  border-radius: 0.2rem;
+  margin-top: 30px;
+  height: 60px;
+  width: 60px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.mobileButton::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 2px;
+  background-color: currentColor;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+}
+
+.mobileButton:focus,
+.mobileButton:hover,
+.mobileButtonActive {
+  outline: none;
+  background: white;
+  box-shadow: 0 0 0 3px var(--bgSecondary);
+  border-color: var(--highlightPrimary);
+  color: var(--highlightPrimary);
+}
+
+.mobileButtonActive::after {
+  transform: rotate(90deg);
+  width: 2px;
+  height: 2px;
+  box-shadow: 0 8px currentColor, 0 -8px currentColor;
+}
+
+.navMobile {
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  padding: 0 5rem;
+  background: white;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navMobileActive {
+  transition: 0.3s;
+  transform: initial;
+  opacity: 1;
+  pointer-events: initial;
+  z-index: 100;
+}
+
+.navMobile a,
+.navMobile button {
+  display: flex;
+  align-items: center;
+  background: none;
+  width: 100%;
+  padding: 1rem 0;
+  cursor: pointer;
 }

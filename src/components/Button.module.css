@@ -1,5 +1,6 @@
 button {
   min-width: 238px;
+  padding-block: 12px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -10,4 +11,8 @@ button {
 .button {
   background: var(--bgSecondary);
   font-family: var(--heading);
+}
+
+.button:hover {
+  border: 1px solid #a5113d;
 }

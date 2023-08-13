@@ -10,19 +10,51 @@ function Skills() {
     {
       name: "React.js",
       status: false,
-      institutions: "Origamid, Cubos Academy",
+      institutions: "Origamid, Cubos Academy, Rocketseat",
     },
-    { name: "CSS  Flexbox", status: false, institutions: "Origamid" },
-    { name: "HTML", status: false, institutions: "" },
-    { name: "Git", status: false, institutions: "" },
-    { name: "MUI", status: false, institutions: "" },
-    { name: "HTML", status: false, institutions: "" },
-    { name: "JavaScript", status: false, institutions: "" },
+    {
+      name: "CSS",
+      status: false,
+      institutions: "Origamid, Cubos Academy, DIO, Rocketseat",
+    },
+    {
+      name: "HTML",
+      status: false,
+      institutions: "Cubos Academy, DIO, Rocketseat",
+    },
+    {
+      name: "Git",
+      status: false,
+      institutions: "Origamid, Cubos Academy, Rocketseat",
+    },
+    { name: "MUI", status: false, institutions: "Cubos Academy" },
+    {
+      name: "Github",
+      status: false,
+      institutions: "Cubos Academy, Rocketseat",
+    },
+    {
+      name: "JavaScript",
+      status: false,
+      institutions: "Origamid, Cubos Academy, DIO, Rocketseat",
+    },
+    { name: "Deploy", status: false, institutions: "Cubos Academy" },
   ]);
 
   function handleClickInstitutions({ target }) {
     if (target.classList.contains("buttonActive")) {
       target.classList.remove("buttonActive");
+      setSkills((state) => {
+        return state.map((value) => {
+          if (value.institutions.includes(target.innerText)) {
+            return {
+              ...value,
+              status: false,
+            };
+          }
+          return value;
+        });
+      });
       setAddedClass(false);
     }
     if (!addedClass) {

@@ -1,29 +1,26 @@
 .subtitle {
-  padding-block: 30px;
+  padding-block: 40px;
 }
 
 .containerGroup {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.groupButton {
+.groupButton,
+.groupSkill {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.groupSkill {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
 .card {
-  width: 140px;
-  padding-block: 14px;
+  width: 200px;
+  padding-block: 12px;
   background: var(--bgCard);
-  font-family: var(--heading2);
+  font-family: var(--bodyText);
   text-align: center;
   border-radius: 8px;
+  letter-spacing: 2.7px;
 }

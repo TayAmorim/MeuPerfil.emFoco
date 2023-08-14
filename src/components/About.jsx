@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import styles from "./About.module.css";
-import Barbell from "../assets/ion_barbell.svg";
-import Dice from "../assets/dice.svg";
-import Coffee from "../assets/coffee.svg";
-import Home from "../assets/home.svg";
-import Book from "../assets/book.svg";
-import Bike from "../assets/bike.svg";
+import BarbellIcon from "../assets/ion_barbell.svg";
+import DiceIcon from "../assets/dice.svg";
+import CoffeeIcon from "../assets/coffee.svg";
+import HomeIcon from "../assets/home.svg";
+import BookIcon from "../assets/book.svg";
+import BikeIcon from "../assets/bike.svg";
 import TitleContainer from "./TitleContainer";
 
 function About() {
@@ -33,19 +33,19 @@ function About() {
           </h2>
           <div className={styles.cardHobbies}>
             <p>
-              <img src={Barbell} alt="Ícone de peso de academia" />
+              <img src={BarbellIcon} alt="Ícone de peso de academia" />
               Treinar
             </p>
             <p>
-              <img src={Dice} alt="Ícone  dado" />
+              <img src={DiceIcon} alt="Ícone  dado" />
               Jogar rpg com os amigos
             </p>
             <p>
-              <img src={Coffee} alt="Ícone de xicara de cafe" />
+              <img src={CoffeeIcon} alt="Ícone de xicara de cafe" />
               Experimentar bons cafés
             </p>
             <p>
-              <img src={Home} alt="Ícone casa" />O conforto do meu lar
+              <img src={HomeIcon} alt="Ícone casa" />O conforto do meu lar
             </p>
           </div>
         </div>
@@ -55,11 +55,14 @@ function About() {
           </h2>
           <div className={styles.cardCuriosities}>
             <p>
-              <img src={Book} alt="Icone de um livro aberto" />
+              <img src={BookIcon} alt="Icone de um livro aberto" />
               Já li 576 paginas em 3 dias
             </p>
             <p>
-              <img src={Bike} alt="Ícone de biceclata com um traço no meio" />
+              <img
+                src={BikeIcon}
+                alt="Ícone de biceclata com um traço no meio"
+              />
               Não sei andar de bicleta
             </p>
           </div>

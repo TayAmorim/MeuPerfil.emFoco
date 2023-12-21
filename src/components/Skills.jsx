@@ -13,14 +13,9 @@ function Skills() {
       institutions: "Origamid, Cubos Academy, Rocketseat",
     },
     {
-      name: "CSS",
+      name: "Tailwind CSS",
       status: false,
-      institutions: "Origamid, Cubos Academy, DIO, Rocketseat",
-    },
-    {
-      name: "HTML",
-      status: false,
-      institutions: "Cubos Academy, DIO, Rocketseat",
+      institutions: "Rocketseat",
     },
     {
       name: "Git",
@@ -39,6 +34,7 @@ function Skills() {
       institutions: "Origamid, Cubos Academy, DIO, Rocketseat",
     },
     { name: "Deploy", status: false, institutions: "Cubos Academy" },
+    { name: "TypeScript", status: false, institutions: "Origamid" },
   ]);
 
   function handleClickInstitutions({ target }) {

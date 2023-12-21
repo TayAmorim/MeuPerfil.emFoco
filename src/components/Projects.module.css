@@ -1,0 +1,23 @@
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-block: 40px;
+}
+
+.containerCard {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  font-size: 1.6rem;
+  color: var(--textPrimary);
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--highlightPrimary);
+  transition: all 0.2s;
+}

@@ -5,7 +5,14 @@ import TitleContainer from "./TitleContainer";
 
 function Skills() {
   const [addedClass, setAddedClass] = useState(false);
-  const institutions = ["Origamid", "Cubos Academy", "DIO", "Rocketseat"];
+  const institutions = [
+    "Origamid",
+    "Cubos Academy",
+    "DIO",
+    "Rocketseat",
+    "Uninter",
+    "Menina de UX",
+  ];
   const [skills, setSkills] = useState([
     {
       name: "React.js",
@@ -15,25 +22,25 @@ function Skills() {
     {
       name: "Tailwind CSS",
       status: false,
-      institutions: "Rocketseat",
+      institutions: "Menina de UX, Rocketseat",
     },
     {
-      name: "Git",
+      name: "PostgreSQL",
       status: false,
-      institutions: "Origamid, Cubos Academy, Rocketseat",
+      institutions: "Cubos Academy",
     },
-    { name: "MUI", status: false, institutions: "Cubos Academy" },
+    { name: "Node.js", status: false, institutions: "Cubos Academy" },
     {
-      name: "Github",
+      name: "Git/Github",
       status: false,
-      institutions: "Cubos Academy, Rocketseat",
+      institutions: "Cubos Academy, Rocketseat, Menina de UX, Uninter",
     },
     {
       name: "JavaScript",
       status: false,
-      institutions: "Origamid, Cubos Academy, DIO, Rocketseat",
+      institutions: "Origamid, Cubos Academy, DIO, Rocketseat, Uninter",
     },
-    { name: "Deploy", status: false, institutions: "Cubos Academy" },
+    { name: "Express.js", status: false, institutions: "Cubos Academy" },
     { name: "TypeScript", status: false, institutions: "Origamid" },
   ]);
 
@@ -73,7 +80,7 @@ function Skills() {
 
   return (
     <section id="abilities" className={`container ${styles.skills}`}>
-      <TitleContainer number="02" section="HABILIDADES & CARREIRA" />
+      <TitleContainer number="03" section="HABILIDADES & CARREIRA" />
       <h2 className={`subtitleContainer ${styles.subtitle}`}>Instituições</h2>
       <div className={styles.containerGroup}>
         <div className={styles.groupButton}>

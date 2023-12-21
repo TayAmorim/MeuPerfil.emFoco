@@ -5,7 +5,7 @@ import DiceIcon from "../assets/dice.svg";
 import CoffeeIcon from "../assets/coffee.svg";
 import HomeIcon from "../assets/home.svg";
 import BookIcon from "../assets/book.svg";
-import Needle from "../assets/needle.png";
+import Happy from "../assets/happy.svg";
 import TitleContainer from "./TitleContainer";
 
 function About() {
@@ -59,7 +59,7 @@ function About() {
               Já li 576 paginas em 3 dias
             </p>
             <p>
-              <img src={Needle} alt="Ícone de biceclata com um traço no meio" />
+              <img src={Happy} alt="Ícone de biceclata com um traço no meio" />
               Gosto de fazer crochê para relaxar
             </p>
           </div>

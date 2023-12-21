@@ -36,15 +36,15 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className={styles.navList} href="#abilities">
+            <a className={styles.navList} href="#projects">
               <span className={styles.listNumber}>03</span>
-              <p>CARREIRA</p>
+              <p>PROJETOS</p>
             </a>
           </li>
           <li>
-            <a className={styles.navList} href="#motivation">
+            <a className={styles.navList} href="#abilities">
               <span className={styles.listNumber}>04</span>
-              <p>MOTIVAÇÃO</p>
+              <p>CARREIRA</p>
             </a>
           </li>
         </ul>

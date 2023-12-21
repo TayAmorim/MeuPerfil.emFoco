@@ -1,5 +1,5 @@
 .card {
-  width: 50%;
+  min-width: 50%;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -20,4 +20,10 @@
 .link:hover {
   color: var(--highlightPrimary);
   transition: all 0.2s;
+}
+
+@media only screen and (max-width: 40rem) {
+  .containerCard {
+    flex-direction: column;
+  }
 }
